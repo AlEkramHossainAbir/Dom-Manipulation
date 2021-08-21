@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac-Book-Pro</title>
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- External CSS file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="container mt-5">
+
+            <div class="row container gx-5 ">
+                <div class="col-6">
+                    <img src="images/mac.png" class="w-75 ms-5" alt="">
+                </div>
+                <div class="col-6">
+                    <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and
+                        16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic
+                        Mouse Magic Keyboard- US English</p>
+                    <br>
+                    <p class="fw-bold">Memory</p>
+                    <button class="rounded p-2 btns" id="memoryFirstoption">8GB unified memory</button>
+                    <button class="rounded p-2 btns" id="memorySecondOption">16GB unified memory</button>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="fw-bold">storage</p>
+                    <button class="rounded p-2 btns" id="storageFirstOption">256GB SSD storage</button>
+                    <button class="rounded p-2 btns" id="storageSecondOption">512GB SSD storage</button>
+                    <button class="rounded p-2 btns" id="storageThirdOption">1TB SSD storage</button>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="fw-bold">Choose your delivery option</p>
+                    <div class="delivery">
+                        <button class="rounded p-2 btns" id="shipmentNormalCost">Friday, AUG 25 FREE Prime Delivery</button>
+                        <button class="rounded p-2 btns" id="shipmentFastCost">Friday, AUG 21 Delivery charge $20</button>
+                    </div>
+                    
+
+                    <div class="row">
+                        <div class="col-6">
+                            <br>
+                            <table class="table border-1" id="table">
+                                <tbody class="fw-bold">
+                                    <tr>
+                                        <td>Best Price</th>
+                                        <td>$<span id="basePrice">1299</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Extra Memory Cost</th>
+                                        <td>$<span id="extraMemoryCost">0</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Extra Storage Cost</th>
+                                        <td>$<span id="extraStorageCost">0</span></td>
+                                        
+
+                                    </tr>
+                                    <tr>
+                                        <td>Delivery Charge</th>
+                                        <td>$<span id="deliveryCharge">0</span></td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td class="fw-bold">Total Price</th>
+                                        <td class="fw-bold">$<span id="totalCost">1299</span></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <h6>Add Promo code</h6>
+                            <div class="promo">
+                                <input type="text" class=" border border-1 rounded" id="promoText" >
+                            <button class="btn-danger px-2 py-1 rounded border-0" onclick="promoAdd()">Apply</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+        </section>
+
+
+    </main>
+    <footer class="mt-3">
+        <!-- <h1 class="text-center">Total: $<span>1299</span></h1> -->
+        <h1 class="text-center" >Total: $<span id="totalPrice">1299</span></h1>
+        <br>
+    </footer>
+
+    <!-- External Js File Link -->
+    <script src="js/interactive.js"></script>
+
+    <!-- Bootstrap JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
