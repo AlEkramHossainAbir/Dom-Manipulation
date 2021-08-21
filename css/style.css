@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ .btns:hover{
+     background-color: black;
+     color: white;
+ }
+.delivery,.promo{
+    display: flex;
+}
+.delivery button{
+    width: 100%;
+    font-size: 12px;
+    margin-right:5px ;
+}
+.promo button{
+    margin-left:10px ;
+}
